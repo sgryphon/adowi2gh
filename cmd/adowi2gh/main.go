@@ -298,6 +298,12 @@ func createDefaultConfig() *config.Config {
 					"task":       {"task"},
 					"epic":       {"epic"},
 				},
+				IssueTypeMapping: map[string]string{
+					"Bug":                  "Bug",
+					"Task":                 "Task",
+					"User Story":           "Feature",
+					"Product Backlog Item": "Feature",
+				},
 				PriorityMapping: map[string][]string{
 					"1": {"priority:critical"},
 					"2": {"priority:high"},
