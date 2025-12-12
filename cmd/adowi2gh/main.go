@@ -293,10 +293,10 @@ func createDefaultConfig() *config.Config {
 					"Done":     "closed",
 				},
 				TypeMapping: map[string][]string{
-					"Bug":        {"bug"},
-					"User Story": {"enhancement"},
-					"Task":       {"task"},
-					"Epic":       {"epic"},
+					"bug":        {"bug"},
+					"user story": {"enhancement"},
+					"task":       {"task"},
+					"epic":       {"epic"},
 				},
 				PriorityMapping: map[string][]string{
 					"1": {"priority:critical"},
